@@ -20,9 +20,6 @@
     ]
   },
   "exclude": [
-    "dist",
-    "build",
-    "node_modules",
-    "surpass.common.uicomponentlibrary"
+    "node_modules"
   ]
 }
