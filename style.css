@@ -1,0 +1,88 @@
+.container-fluid {
+    font: 24px "Century Gothic", Futura, sans-serif;
+    background: rgb(255,183,107); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgb(255,183,107) 0%, rgb(255,167,61) 16%, rgb(232,185,18) 31%, rgb(255,215,170) 50%, rgb(239,185,148) 76%, rgb(255,127,4) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgb(255,183,107) 0%,rgb(255,167,61) 16%,rgb(232,185,18) 31%,rgb(255,215,170) 50%,rgb(239,185,148) 76%,rgb(255,127,4) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgb(255,183,107) 0%,rgb(255,167,61) 16%,rgb(232,185,18) 31%,rgb(255,215,170) 50%,rgb(239,185,148) 76%,rgb(255,127,4) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+  ol, ul {
+    padding-left: 30px;
+  }
+
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+
+  .status {
+    margin-bottom: 10px;
+    background-color: #eecd31;
+  }
+/*
+  .square-even {
+    background-color:rgb(134, 98, 6) !important;
+   }
+
+   .square-odd {
+    background-color:darkorange !important;
+   } */
+
+.resetboard {
+    background-color: #5eea58;
+    border: 1px solid darkorange;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+  .square {
+    border: 1px solid black;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+    width: 10%;
+}
+
+  .kbd-navigation .square:focus {
+    background: rgb(243, 93, 34);
+  }
+
+  .game-board {
+    width:100%;
+    padding: 3px;
+    border: rgb(233, 178, 29) 2px solid;
+  }
+
+  .game-board-row {
+    cursor: pointer;
+  }
+
+  .game-info {
+    margin-left: 20px;
+  }
+
+  .game-board-row:nth-child(odd) .square-even {
+    background-color:rgb(134, 98, 6) !important;
+  }
+
+  .game-board-row:nth-child(odd) .square-odd {
+    background-color:darkorange !important;
+  }
+
+  .game-board-row:nth-child(even) .square-even {
+    background-color:rgb(134, 98, 6) !important;
+  }
+
+  .game-board-row:nth-child(even) .square-odd {
+    background-color:darkorange !important;
+  }
+

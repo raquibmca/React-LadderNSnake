@@ -1,0 +1,56 @@
+.player {
+    width: 100%;
+    margin: 0px;
+    opacity: 0.4;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+   
+    .panel {
+        text-align: left;
+        margin-left: 5px;
+        padding: 5px;
+        
+       .player-panel {
+            font-weight: bold;
+
+            .header {
+                color: yellow;
+                padding-left: 5px;
+                font-size: 2vw;
+                font-style: italic;
+                background-color: rgb(68, 160, 80);
+                border: 1px solid black;
+                border-radius: 2px;
+            }
+
+            .header-disabled {
+                color: black;
+                padding-left: 5px;
+                font-size: 2vw;
+                font-style: italic;
+                background-color: #ccc; 
+                border: 1px solid black;
+                border-radius: 2px;
+            }
+
+            .curval {
+                margin-bottom: 5px;
+                font-size: 1vw;
+                color: black;
+            }
+       }
+    }
+}
+
+.panel-border-normal {
+     border: 2px solid black;
+}
+
+.panel-border-active {
+     border: 2px solid green;
+}
+
+.panel-border-selected {
+     border: 5px solid blue;
+}
+
+ 

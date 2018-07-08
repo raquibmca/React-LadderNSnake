@@ -1,0 +1,8 @@
+{
+	"Players" :[
+		{"Name":"Raquib","CurrentIndex":0,"CurrentDiceVal":0,"IsComp":0, "IsStarted": 1},
+		{"Name":"Yogesh","CurrentIndex":2,"CurrentDiceVal":0,"IsComp":0, "IsStarted": 0},
+		{"Name":"Prashant","CurrentIndex":3,"CurrentDiceVal":0,"IsComp":0, "IsStarted": 0},
+		{"Name":"AI","CurrentIndex":1,"CurrentDiceVal":0,"IsComp":1, "IsStarted": 0}
+    ]
+}
